@@ -155,6 +155,7 @@ class Index extends React.Component {
           {
             content: '',
             image: `${baseUrl}img/apiicon.jpg`,
+            docsUrl: 'https://classic.yarnpkg.com/en/docs/cli/run',
             imageAlign: 'top',
             title: 'API',
           },

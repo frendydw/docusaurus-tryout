@@ -21,7 +21,7 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Docusaurus', // Title for your website.
+  title: '', // Title for your website.
   tagline: 'Learn about Microservices and API',
   url: 'frendydw.github.io', // Your website URL
   baseUrl: '/docusaurus-tryout/', // Base URL for your project */
@@ -48,9 +48,9 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
-  favicon: 'img/favicon.ico',
+  headerIcon: 'img/magenta.jpg',
+  footerIcon: 'img/magenta.jpg',
+  favicon: 'img/magenta.jpg',
 
   /* Colors for website */
   colors: {
