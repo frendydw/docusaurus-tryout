@@ -22,7 +22,7 @@ const users = [
 
 const siteConfig = {
   title: 'Magenta', // Title for your website.
-  tagline: 'Learn about Microservices and API',
+  tagline: 'Learn about Microservices, API, and Database',
   url: 'frendydw.github.io', // Your website URL
   baseUrl: '/docusaurus-tryout/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -73,7 +73,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} frendydw`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.

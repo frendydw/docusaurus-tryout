@@ -31,12 +31,12 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5>Docs</h5>
-            <a href={this.docUrl('doc1.html')}>
-              Getting Started (or other categories)
+            <a href={this.docUrl('microservices-introduction')}>
+              Microservices
             </a>
-            <a href={this.docUrl('doc2.html')}>Guides (or other categories)</a>
-            <a href={this.docUrl('doc3.html')}>
-              API Reference (or other categories)
+            <a href={this.docUrl('api-introduction')}>API</a>
+            <a href={this.docUrl('database-introduction.html')}>
+              Database
             </a>
           </div>
           <div>
