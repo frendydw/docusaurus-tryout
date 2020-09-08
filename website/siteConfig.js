@@ -39,8 +39,8 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'microservices-introduction', label: 'Learn'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
+    // {doc: 'doc4', label: 'API'},
+    {page: 'help', label: 'About'},
     {blog: true, label: 'Blog'},
   ],
 

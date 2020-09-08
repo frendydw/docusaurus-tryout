@@ -1,7 +1,8 @@
 {
   "docs": {
     "Microservice": ["microservices-introduction", "microservice-features"],
-    "API": ["api-introduction","api-types","api-rest"]
+    "API": ["api-introduction","api-types","api-rest"],
+    "Database": ["database-introduction", "database-sql", "database-sql-list"]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]

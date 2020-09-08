@@ -1,7 +1,6 @@
 ---
 id: microservices-introduction
 title: Introduction to Microservice
-sidebar_label: Introduction
 ---
 
 ## What is Microservices?

@@ -66,6 +66,7 @@ class HomeSplash extends React.Component {
           <PromoSection>
             <Button href={docUrl('microservices-introduction')}>Microservices</Button>
             <Button href={docUrl('api-introduction')}>API</Button>
+            <Button href={docUrl('database-introduction')}>Database</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -205,11 +206,11 @@ class Index extends React.Component {
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
           <Features />
-          <FeatureCallout />
+          {/* <FeatureCallout />
           <LearnHow />
           <TryOut />
           <Description />
-          <Showcase />
+          <Showcase /> */}
         </div>
       </div>
     );
