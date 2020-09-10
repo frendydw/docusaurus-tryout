@@ -37,11 +37,18 @@ const siteConfig = {
   //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
+  algolia: {
+    apiKey: 'my-api-key',
+    indexName: 'my-index-name',
+    appId: 'microservices-introduction', // Optional, if you run the DocSearch crawler on your own
+    algoliaOptions: {} // Optional, if provided by Algolia
+  },
   headerLinks: [
     {doc: 'microservices-introduction', label: 'Learn'},
     // {doc: 'doc4', label: 'API'},
     {page: 'help', label: 'About'},
     {blog: true, label: 'Blog'},
+    {search: true}
   ],
 
   // If you have users set above, you add it here:
