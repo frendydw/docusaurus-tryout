@@ -24,19 +24,19 @@ class Footer extends React.Component {
               <img
                 src={this.props.config.baseUrl + this.props.config.footerIcon}
                 alt={this.props.config.title}
-                width="66"
-                height="58"
+                width="120px"
+                height="50px"
               />
             )}
           </a>
           <div>
             <h5>Docs</h5>
-            <a href={this.docUrl('doc1.html')}>
-              Getting Started (or other categories)
+            <a href={this.docUrl('microservices-introduction')}>
+              Microservices
             </a>
-            <a href={this.docUrl('doc2.html')}>Guides (or other categories)</a>
-            <a href={this.docUrl('doc3.html')}>
-              API Reference (or other categories)
+            <a href={this.docUrl('api-introduction')}>API</a>
+            <a href={this.docUrl('database-introduction.html')}>
+              Database
             </a>
           </div>
           <div>
@@ -49,17 +49,11 @@ class Footer extends React.Component {
               Stack Overflow
             </a>
             <a href="https://discordapp.com/">Project Chat</a>
-            <a
-              href="https://twitter.com/"
-              target="_blank"
-              rel="noreferrer noopener">
-              Twitter
-            </a>
           </div>
           <div>
             <h5>More</h5>
             <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
-            <a href="https://github.com/">GitHub</a>
+            <a href="https://github.com/frendydw/">GitHub</a>
             <a
               className="github-button"
               href={this.props.config.repoUrl}

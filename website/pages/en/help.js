@@ -21,18 +21,12 @@ function Help(props) {
 
   const supportLinks = [
     {
-      content: `Learn more using the [documentation on this site.](${docUrl(
-        'doc1.html',
-      )})`,
-      title: 'Browse Docs',
+      content: `Learn more in this [Docusaurus documentation](https://docusaurus.io/docs/en/installation)`,
+      title: 'What is Docusaurus?',
     },
     {
-      content: 'Ask questions about the documentation and project',
-      title: 'Join the community',
-    },
-    {
-      content: "Find out what's new with this project",
-      title: 'Stay up to date',
+      content: 'Find your answer [here](https://www.addictionacademy.com/2017/03/the-importance-of-documentation/#:~:text=Documentation%20help%20ensure%20consent%20and,the%20reasoning%20for%20such%20services.)',
+      title: 'Why Documentation is Important?',
     },
   ];
 
@@ -41,9 +35,9 @@ function Help(props) {
       <Container className="mainContainer documentContainer postContainer">
         <div className="post">
           <header className="postHeader">
-            <h1>Need help?</h1>
+            <h1>What is it?</h1>
           </header>
-          <p>This project is maintained by a dedicated group of people.</p>
+          <p>This is a dummy project to help me learn how to use Docusaurus properly.</p>
           <GridBlock contents={supportLinks} layout="threeColumn" />
         </div>
       </Container>

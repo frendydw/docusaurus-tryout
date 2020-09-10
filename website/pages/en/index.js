@@ -66,6 +66,7 @@ class HomeSplash extends React.Component {
           <PromoSection>
             <Button href={docUrl('microservices-introduction')}>Microservices</Button>
             <Button href={docUrl('api-introduction')}>API</Button>
+            <Button href={docUrl('database-introduction')}>Database</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -147,17 +148,24 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: '',
+            content: 'Learn more about microservices and how to make its [interact](https://dzone.com/articles/how-to-make-microservices-communicate) with each other',
             image: `${baseUrl}img/mcicon.jpg`,
             imageAlign: 'top',
             title: 'Microservices',
           },
           {
-            content: '',
+            content: 'Lear more about API and how it [works](https://blogs.mulesoft.com/biz/tech-ramblings-biz/what-are-apis-how-do-apis-work/#:~:text=API%20stands%20for%20Application%20Programming,to%20talk%20to%20each%20other.&text=Therefore%2C%20a%20good%20API%20makes,t%20often%20start%20from%20scratch.)',
             image: `${baseUrl}img/apiicon.jpg`,
             docsUrl: 'https://classic.yarnpkg.com/en/docs/cli/run',
             imageAlign: 'top',
             title: 'API',
+          },
+          {
+            content: 'Lear more about database and how it [store data](https://stackoverflow.com/questions/12018565/how-do-databases-physically-store-data-on-a-filesystem)',
+            image: `${baseUrl}img/database.jpg`,
+            docsUrl: 'https://classic.yarnpkg.com/en/docs/cli/run',
+            imageAlign: 'top',
+            title: 'Database',
           },
         ]}
       </Block>
@@ -198,11 +206,11 @@ class Index extends React.Component {
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
           <Features />
-          <FeatureCallout />
+          {/* <FeatureCallout />
           <LearnHow />
           <TryOut />
           <Description />
-          <Showcase />
+          <Showcase /> */}
         </div>
       </div>
     );

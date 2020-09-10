@@ -1,6 +1,6 @@
 ---
 id: api-introduction
-title: Introduction
+title: Introduction to API
 ---
 
 ## What is an API
