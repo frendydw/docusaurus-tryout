@@ -21,7 +21,7 @@ const users = [
 ];
 
 const siteConfig = {
-  title: '', // Title for your website.
+  title: 'Magenta', // Title for your website.
   tagline: 'Learn about Microservices and API',
   url: 'frendydw.github.io', // Your website URL
   baseUrl: '/docusaurus-tryout/', // Base URL for your project */
