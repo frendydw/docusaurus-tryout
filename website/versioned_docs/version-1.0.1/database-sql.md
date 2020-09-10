@@ -1,6 +1,6 @@
 ---
 id: version-1.0.1-database-sql
-title: SQL
+title: SQL 1.0.1
 original_id: database-sql
 ---
 

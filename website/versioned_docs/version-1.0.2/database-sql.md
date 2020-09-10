@@ -1,16 +1,14 @@
 ---
-id: version-1.0.1-database-introduction
-title: Introduction to Database 1.0.1
-original_id: database-introduction
+id: version-1.0.2-database-sql
+title: SQL 1.0.2
+original_id: database-sql
 ---
 
-## What is a Database
+## What is an SQL
 
-A database is an organized collection of data, generally stored and accessed electronically from a computer system. Where databases are more complex they are often developed using formal design and modeling techniques.
+SQL stands for Structured Query Language, which is a standardised language for interacting with RDBMS (Relational Database Management System). Some of the popular relational database example are: MySQL, Oracle, mariaDB, postgreSQL etc. ... We can create databases and tables inside database using SQL.
 
-Data within the most common types of databases in operation today is typically modeled in rows and columns in a series of tables to make processing and data querying efficient. The data can then be easily accessed, managed, modified, updated, controlled, and organized. Most databases use structured query language (SQL) for writing and querying data.
-
-![alt-text](assets/database-illustration.jpg)
+![alt-text](assets/sql.jpg)
 
 ## What is Structured Query Language (SQL)?
 

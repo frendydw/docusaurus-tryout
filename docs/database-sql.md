@@ -1,6 +1,6 @@
 ---
 id: database-sql
-title: SQL
+title: SQL 1.0.2
 ---
 
 ## What is an SQL

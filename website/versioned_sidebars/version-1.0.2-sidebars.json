@@ -1,0 +1,25 @@
+{
+    "version-1.0.2-docs": {
+      "Microservice": [
+        "version-1.0.2-microservices-introduction",
+        "version-1.0.2-microservice-features"
+      ],
+      "API": [
+        "version-1.0.2-api-introduction",
+        "version-1.0.2-api-types",
+        "version-1.0.2-api-rest"
+      ],
+      "Database": [
+        "version-1.0.2-database-introduction",
+        "version-1.0.2-database-sql",
+        "version-1.0.2-database-sql-list"
+      ]
+    },
+    "version-1.0.2-docs-other": {
+      "First Category": [
+        "version-1.0.2-doc4",
+        "version-1.0.2-doc5"
+      ]
+    }
+  }
+  

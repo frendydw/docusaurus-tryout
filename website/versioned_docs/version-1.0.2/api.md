@@ -1,10 +1,10 @@
 ---
-id: version-1.0.1-api-introduction
-title: Introduction to API 1.0.1
+id: version-1.0.2-api-introduction
+title: Introduction to API 1.0.2
 original_id: api-introduction
 ---
 
-## What is an API
+## What is an
 
 An API is a set of programming code that enables data transmission between one software product and another. It also contains the terms of this data exchange.
 API stands for Application Programming Interface. An API is a software intermediary that allows two applications to talk to each other.  In other words, an API is the messenger that delivers your request to the provider that you’re requesting it from and then delivers the response back to you.

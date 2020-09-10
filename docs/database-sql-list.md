@@ -1,6 +1,6 @@
 ---
 id: database-sql-list
-title: SQL Database List
+title: SQL Database List 1.0.2
 ---
 
 Databases store information and its contents can be everything from product catalogs to repositories of customer information. For information to be easy to access, use and understand, database management systems are required. Database management systems can help sort information as well as link databases to each other and provide reports about changes and trends in the information in databases.

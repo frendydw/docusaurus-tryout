@@ -1,6 +1,6 @@
 ---
-id: version-1.0.1-microservice-features
-title: Features 1.0.1
+id: version-1.0.2-microservice-features
+title: Features 1.0.2
 original_id: microservice-features
 ---
 

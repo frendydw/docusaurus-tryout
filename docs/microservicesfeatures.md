@@ -1,6 +1,6 @@
 ---
 id: microservice-features
-title: Features
+title: Features 1.0.2
 ---
 
 there are 6 defining features of microservices.

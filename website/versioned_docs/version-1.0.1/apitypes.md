@@ -1,6 +1,6 @@
 ---
 id: version-1.0.1-api-types
-title: Types of API
+title: Types of API 1.0.1
 original_id: api-types
 ---
 

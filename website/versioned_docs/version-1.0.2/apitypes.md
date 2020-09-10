@@ -1,6 +1,7 @@
 ---
-id: api-types
+id: version-1.0.2-api-types
 title: Types of API 1.0.2
+original_id: api-types
 ---
 
 ## Database APIs.
